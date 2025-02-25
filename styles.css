@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body {
+}
+
+.navbar {
+  display: inline-flexbox;
+  min-width: 390px;
+  max-width: 1440px;
+  height: 100px;
+  flex-shrink: 0;
+  background-color: #160e33;
+  margin: auto;
+}
+
+.logo {
+  display: inline-flex;
+  padding-top: 35px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 150px;
+}
+
+.logo h1 {
+  color: #ef443b;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: normal;
+}
+
+nav {
+  max-width: 700px;
+  height: 91px;
+}
+.main-menu {
+  display: inline-flex;
+  padding-top: 35px;
+  padding-right: 100px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  align-items: center;
+  gap: 30px;
+  width: 700px;
+  height: 91px;
+}
+
+.main-menu a {
+  padding: 35px 18px;
+  color: var(--White, #fff);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.sign-up {
+  display: inline-flex;
+  color: #ffffff;
+  padding: 35px 18px;
+  color: var(--White, #fff);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.background {
+  display: flexbox;
+  min-width: 390px;
+  max-width: 1440px;
+  height: 800px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    122deg,
+    #160e33 28.68%,
+    rgba(22, 14, 51, 0.3) 69.08%
+  );
+  margin: auto;
+}
+
+.text .hero-text {
+  display: flexbox;
+  color: var(--White, #ffffff);
+  font-family: Rubik;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  position: absolute;
+  top: 27%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.imagem-outer {
+  background-image: linear-gradient(
+      155deg,
+      rgba(22, 14, 51, 1) 26.68%,
+      rgba(22, 14, 51, 0.3) 69.08%,
+
+      rgba(22, 14, 51, 1) 90%,
+      rgba(22, 14, 51, 0.8) 100%
+    ),
+    url(assets/img/bg.png);
+  width: 1440px;
+  height: 800px;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*
+.gradient-left-imagem {
+}
+background: linear-gradient(
+  122deg,
+  #160e33 28.68%,
+  rgba(22, 14, 51, 0.3) 69.08%
+);
+*/
